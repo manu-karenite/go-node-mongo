@@ -1,0 +1,27 @@
+{
+  "name": "go-node-mongo",
+  "version": "0.0.3",
+  "description": "Initialise Backend Project on one GO with go-node-mongo. Designed for Node.js Runtime Environment and MongoDB as Database",
+  "main": "index",
+  "typings": "dist/index",
+  "keywords": [
+    "go-node-mongo",
+    "node",
+    "mongoose",
+    "cors",
+    "body-parser",
+    "mongoose"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manavesh Narendra",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.3",
+    "morgan": "^1.10.0"
+  }
+}
