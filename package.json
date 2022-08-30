@@ -1,6 +1,10 @@
 {
   "name": "go-node-mongo",
   "version": "0.0.3",
+  "repository": {
+    "type": "git",
+    "url": " https://github.com/manu-karenite/go-node-mongo.git"
+  },
   "description": "Initialise Backend Project on one GO with go-node-mongo. Designed for Node.js Runtime Environment and MongoDB as Database",
   "main": "index",
   "typings": "dist/index",
