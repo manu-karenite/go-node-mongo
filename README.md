@@ -5,9 +5,9 @@
 - Package to initialise the Backend Project
 - Backend Projects allow express and mongoDB as Database
 
-## How to install ⬇️ 💡
+## How to install ⬇️
 
-- ```bash
+- ```js
   npm i go-node-mongo
   ```
 
