@@ -1,17 +1,45 @@
-<h1 style="color:#F309A6">go-node-mongo</h1>
+# Void Design
 
-## Description
+A hybrid package of UI elements for ReactJS, from [void](https://github.com/void-verse)
 
-- Package to initialise the Backend Project
-- Backend Projects allow express and mongoDB as Database
+<br />
 
-## How to install ⬇️
+## What's new (v1.0.2)
 
-- ```js
-  npm i go-node-mongo
-  ```
+- Reduced package size by 95%
 
+<br />
+
+## Installation
+
+- :arrow_down: Install the package
+
+```bash
+yarn add void-design
 ```
 
-* ![How to Use go-node-mongo](https://res.cloudinary.com/techbuy/image/upload/v1661882805/npm_p9u1mw.png "This is a sample image.")
+<br />
+
+- :spiral_notepad: Import the CSS file
+
+```js
+import "void-design/lib/void.css";
+```
+
+<br />
+
+- :blue_heart: Start using the package
+
+```js
+import "void-design/lib/void.css";
+import React from "react";
+import { Input } from "void-design";
+const App = () => {
+  return (
+    <div>
+      <Input placeholder="Enter your name" />
+    </div>
+  );
+};
+export default App;
 ```
